@@ -34,6 +34,7 @@ header
 								.navig-menu
 									font-family: "CodeProLight"
 									font-size: 1rem
+									color: #000
 								.navig-menu:hover
 									color: #ff4c4c
 									transition: 0.3s all
@@ -58,19 +59,22 @@ header
 			.but-zakaz
 				margin: 0 auto
 				width: 27%
-				padding: 1%
-				>button
+				padding: 1.5%
+				background-color: #FFF
+				text-align: center
+				font-size: 1.2rem
+				>a
 					margin: 0 auto
 					width: 100%
 					padding: 5%
-					background-color: #FFF
 					border: 0
 					font-family: "GillSansNovaBook"
 					transition: 0.3s all
+					text-decoration: none
+					color: black
 
-				>button:hover
+				>a:hover
 					color: #ff4c4c
-				>button:active
 .section-1
 	.container
 		max-width: 1280px
@@ -91,11 +95,13 @@ header
 				margin: 0 1%
 		.tabs
 			display: flex
-			margin: 3% 3% 3% 0
-			justify-content: space-between	
+			margin: 3% 0 3% 0
+			justify-content: space-between
+
 			.obertk
 				display: flex
 				width: 15%
+				cursor: pointer	
 				.more-2
 					>p
 						margin: 0
@@ -149,6 +155,7 @@ header
 				.obertka-soderj:hover
 					filter: none
 .section-2
+	position: relative
 	.container
 		max-width: 1280px
 		margin: 0 auto
@@ -206,6 +213,7 @@ header
 						padding: 5%
 						font-family: "Open sans"	
 						font-weight: 600
+						transition: 0.3s all
 					.butt-more:hover
 						font-size: 1.1rem
 						width: 47%
@@ -253,6 +261,7 @@ header
 							font-family: "open sans"
 							width: 100%
 							font-size: 1.1rem
+							.phone
 							>p
 								margin: 1% 0
 							>textarea
@@ -275,6 +284,7 @@ header
 								border: 1px solid black
 								outline: none
 								font-weight: 600
+								transition: 0.3s all
 							>button:hover
 								width: 85%
 								padding: 5%
@@ -286,9 +296,42 @@ header
 								outline: none
 								color: white
 								font-weight: 600
-
-							
-									
+							.fio:hover
+								color: black
+	.up
+		position: absolute
+		z-index: 5
+		bottom: 2%
+		left: 2%
+		border-radius: 50%
+		background-color: rgba(220, 215, 215, 0.52)
+		width: 40px
+		height: 40px
+		text-decoration: none
+		text-align: center
+		align-self: center
+		>a
+			color: black
+			display: block
+			font-size: 1.7rem
+	.up:hover
+		transition: 0.3s all
+		position: absolute
+		z-index: 5
+		bottom: 2%
+		left: 2%
+		border-radius: 50%
+		background-color: black
+		width: 40px
+		height: 40px
+		text-decoration: none
+		text-align: center
+		align-self: center
+		>a
+			color: #ff4c4c
+			display: block
+			font-size: 1.7rem
+			transition: 0.3s all
 	
 	
 				
