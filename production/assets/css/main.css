@@ -11,8 +11,7 @@ body {
       box-sizing: border-box; }
     body header .container {
       max-width: 1180px;
-      margin: 0 auto;
-      padding: 0 20px; }
+      margin: 0 auto; }
       body header .container .container-head {
         padding: 2% 1.5% 3.5% 1.5%;
         display: -webkit-box;
@@ -151,6 +150,8 @@ body {
           margin: 0 1%; }
       body .section-1 .container .tabs .active {
         color: red; }
+      body .section-1 .container .tabs .ml {
+        width: 5%; }
   body .section-1 .tab_content .tab_item .soderj {
     display: -webkit-box;
     display: -webkit-flex;
@@ -174,25 +175,28 @@ body {
       filter: grayscale(100%);
       -webkit-transition: 0.3s all;
       transition: 0.3s all; }
-      body .section-1 .tab_content .tab_item .soderj .obertka-soderj .soderj-vnutr .text {
-        display: block; }
     body .section-1 .tab_content .tab_item .soderj .obertka-soderj .soderj-vnutr:hover {
       -webkit-filter: none;
       filter: none; }
-    body .section-1 .tab_content .tab_item .soderj .obertka-soderj .text {
-      margin: 0 2%; }
-      body .section-1 .tab_content .tab_item .soderj .obertka-soderj .text > h3 {
-        font-size: 0.8rem;
-        color: black;
-        font-family: "CodePro";
-        margin: 2% 0;
-        padding: 0; }
-      body .section-1 .tab_content .tab_item .soderj .obertka-soderj .text > p {
-        font-size: 0.8rem;
-        color: black;
-        font-family: "GillSansNovaBook";
-        margin: 0;
-        padding: 0; }
+    body .section-1 .tab_content .tab_item .soderj .obertka-soderj .obertk-text {
+      border-bottom: 1px solid #e0e0e0;
+      border-right: 1px solid #e0e0e0;
+      margin: 0; }
+      body .section-1 .tab_content .tab_item .soderj .obertka-soderj .obertk-text .text {
+        padding: 3%; }
+        body .section-1 .tab_content .tab_item .soderj .obertka-soderj .obertk-text .text > h3 {
+          font-size: 0.8rem;
+          color: black;
+          font-family: "CodePro";
+          margin: 0;
+          padding: 0; }
+        body .section-1 .tab_content .tab_item .soderj .obertka-soderj .obertk-text .text > p {
+          font-size: 0.8rem;
+          color: black;
+          font-family: "GillSansNovaBook";
+          margin: 0;
+          padding: 0;
+          line-height: 1rem; }
     body .section-1 .tab_content .tab_item .soderj .obertka-soderj:hover {
       -webkit-filter: none;
       filter: none; }
@@ -400,14 +404,13 @@ body {
         -webkit-transition: 0.3s all;
         transition: 0.3s all; }
   body footer {
-    max-width: 1280px;
     background-color: #fafafa;
     margin: 0 auto; }
     body footer .container-foot {
       text-align: center;
       font-family: "GillSansNovaBook";
       max-width: 1180px;
-      padding: 1.5% 1.5% 0 1.5%;
+      padding: 1.5%;
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -416,7 +419,7 @@ body {
       -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
       justify-content: space-between;
-      margin: 2%  auto; }
+      margin: 2%   auto 0; }
       body footer .container-foot .left-foot {
         width: 49%;
         padding: 0 1.5%; }
@@ -437,13 +440,18 @@ body {
       body footer .container-foot .right-foot {
         width: 49%; }
         body footer .container-foot .right-foot .text-right {
-          font-size: 0.9rem; }
+          font-size: 0.9rem;
+          width: 40%;
+          margin: 0 auto;
+          text-align: right; }
           body footer .container-foot .right-foot .text-right .html5 {
-            font-size: 0.8rem;
+            font-size: 0.9rem;
             margin-bottom: 0.5%; }
           body footer .container-foot .right-foot .text-right .p-number {
-            margin-bottom: 0.5%; }
+            margin-bottom: 0.5%;
+            font-size: 1.2rem; }
           body footer .container-foot .right-foot .text-right .mail {
+            font-size: 1.2rem;
             margin-bottom: 1%; }
             body footer .container-foot .right-foot .text-right .mail > a {
               text-decoration: none;
@@ -454,11 +462,13 @@ body {
               color: #ff4c4c; }
           body footer .container-foot .right-foot .text-right .soc-icon {
             font-size: 1rem;
-            text-align: center; }
+            text-align: center;
+            text-align: right; }
             body footer .container-foot .right-foot .text-right .soc-icon > a {
               color: black;
               text-decoration: none;
-              margin-left: 2%; }
+              margin-left: 9.5%;
+              font-size: 1.2rem; }
             body footer .container-foot .right-foot .text-right .soc-icon > a:hover {
               color: #ff4c4c;
               -webkit-transition: 0.3s all;
