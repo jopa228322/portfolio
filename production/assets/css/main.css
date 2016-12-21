@@ -1,8 +1,157 @@
-header .container {
-  max-width: 1280px;
-  margin: 0 auto; }
-  header .container .container-head {
-    padding: 2% 1.5% 3.5% 1.5%;
+body {
+  min-width: 1280px;
+  font-size: 17px; }
+  body header {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1; }
+    body header > * {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+    body header .container {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 20px; }
+      body header .container .container-head {
+        padding: 2% 1.5% 3.5% 1.5%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between; }
+        body header .container .container-head .left-head {
+          width: 49%; }
+          body header .container .container-head .left-head .text-left .simv {
+            color: #ff4c4c;
+            font-family: "CodePro";
+            font-size: 1.2rem; }
+          body header .container .container-head .left-head .text-left .fio {
+            font-family: "CodePro";
+            font-size: 1.2rem; }
+          body header .container .container-head .left-head .text-left .fe-dev {
+            font-family: "CodeProLight";
+            color: #152d3f;
+            font-size: 1rem; }
+        body header .container .container-head .right-head {
+          width: 49%; }
+          body header .container .container-head .right-head .text-right {
+            text-align: center; }
+            body header .container .container-head .right-head .text-right .navig .main {
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: justify;
+              -webkit-justify-content: space-between;
+              -ms-flex-pack: justify;
+              justify-content: space-between;
+              list-style-type: none; }
+              body header .container .container-head .right-head .text-right .navig .main > a {
+                text-decoration: none; }
+                body header .container .container-head .right-head .text-right .navig .main > a .navig-menu {
+                  font-family: "CodeProLight";
+                  font-size: 1rem;
+                  color: #000; }
+                body header .container .container-head .right-head .text-right .navig .main > a .navig-menu:hover {
+                  color: #ff4c4c;
+                  -webkit-transition: 0.3s all;
+                  transition: 0.3s all; }
+    body header .container-head-2 {
+      background: url(../img/photo.png);
+      background-position: +100% 17%;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      body header .container-head-2 .main-content {
+        padding: 7% 0 7% 0;
+        width: 50%;
+        margin: 0 auto; }
+        body header .container-head-2 .main-content .zakaz {
+          margin: 5% auto;
+          -webkit-align-content: center;
+          -ms-flex-line-pack: center;
+          align-content: center; }
+          body header .container-head-2 .main-content .zakaz .zakaz1 {
+            width: 90%;
+            margin: 0 auto;
+            color: white;
+            font-size: 2.5rem;
+            text-align: center; }
+        body header .container-head-2 .main-content .but-zakaz {
+          margin: 0 auto;
+          width: 27%;
+          padding: 1.5%;
+          background-color: #FFF;
+          text-align: center;
+          font-size: 1.2rem; }
+          body header .container-head-2 .main-content .but-zakaz > a {
+            margin: 0 auto;
+            width: 100%;
+            padding: 5%;
+            border: 0;
+            font-family: "GillSansNovaBook";
+            -webkit-transition: 0.3s all;
+            transition: 0.3s all;
+            text-decoration: none;
+            color: black; }
+          body header .container-head-2 .main-content .but-zakaz > a:hover {
+            color: #ff4c4c; }
+  body .section-1 .container {
+    margin: 0 auto;
+    max-width: 1180px;
+    padding: 0 20px; }
+    body .section-1 .container > * {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+    body .section-1 .container .portf {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 3% 3% 3% 0; }
+      body .section-1 .container .portf .more > h2 {
+        margin: 0;
+        padding: 0;
+        font-family: "CodePro";
+        font-size: 1rem; }
+      body .section-1 .container .portf .simv {
+        color: #ff4c4c;
+        font-family: "CodePro";
+        font-size: 1rem;
+        margin: 0 1%; }
+    body .section-1 .container .tabs {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      margin: 3% 0 3% 0;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between; }
+      body .section-1 .container .tabs .obertk {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        width: 15%;
+        cursor: pointer; }
+        body .section-1 .container .tabs .obertk .more-2 > p {
+          margin: 0;
+          padding: 0;
+          font-family: "GillSansNovaBook";
+          font-size: 1rem; }
+        body .section-1 .container .tabs .obertk .simv-2 {
+          color: #ff4c4c;
+          font-family: "CodePro";
+          font-size: 1.2rem;
+          margin: 0 1%; }
+      body .section-1 .container .tabs .active {
+        color: red; }
+  body .section-1 .tab_content .tab_item .soderj {
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
@@ -10,375 +159,307 @@ header .container {
     -webkit-box-pack: justify;
     -webkit-justify-content: space-between;
     -ms-flex-pack: justify;
-    justify-content: space-between; }
-    header .container .container-head .left-head {
-      width: 49%; }
-      header .container .container-head .left-head .text-left .simv {
+    justify-content: space-between;
+    margin-bottom: 3%; }
+    body .section-1 .tab_content .tab_item .soderj .hvr {
+      text-decoration: none;
+      width: 25%; }
+    body .section-1 .tab_content .tab_item .soderj .obertka-soderj .soderj-vnutr {
+      width: 100%;
+      height: 250px;
+      background: url("../img/1.png");
+      background-size: cover;
+      position: relative;
+      -webkit-filter: grayscale(100%);
+      filter: grayscale(100%);
+      -webkit-transition: 0.3s all;
+      transition: 0.3s all; }
+      body .section-1 .tab_content .tab_item .soderj .obertka-soderj .soderj-vnutr .text {
+        display: block; }
+    body .section-1 .tab_content .tab_item .soderj .obertka-soderj .soderj-vnutr:hover {
+      -webkit-filter: none;
+      filter: none; }
+    body .section-1 .tab_content .tab_item .soderj .obertka-soderj .text {
+      margin: 0 2%; }
+      body .section-1 .tab_content .tab_item .soderj .obertka-soderj .text > h3 {
+        font-size: 0.8rem;
+        color: black;
+        font-family: "CodePro";
+        margin: 2% 0;
+        padding: 0; }
+      body .section-1 .tab_content .tab_item .soderj .obertka-soderj .text > p {
+        font-size: 0.8rem;
+        color: black;
+        font-family: "GillSansNovaBook";
+        margin: 0;
+        padding: 0; }
+    body .section-1 .tab_content .tab_item .soderj .obertka-soderj:hover {
+      -webkit-filter: none;
+      filter: none; }
+  body .section-2 {
+    position: relative; }
+    body .section-2 .container {
+      max-width: 1180px;
+      padding: 0 20px;
+      margin: 0 auto; }
+      body .section-2 .container > * {
+        -webkit-box-sizing: border-box;
+        box-sizing: border-box; }
+      body .section-2 .container .about-me .text-about {
+        margin: 3% 3% 3% 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; }
+        body .section-2 .container .about-me .text-about .more > h2 {
+          margin: 0;
+          padding: 0;
+          font-family: "CodePro";
+          font-size: 1rem; }
+      body .section-2 .container .about-me .simv {
         color: #ff4c4c;
         font-family: "CodePro";
-        font-size: 1.2rem; }
-      header .container .container-head .left-head .text-left .fio {
+        font-size: 1rem;
+        margin: 0 1%; }
+      body .section-2 .container .about-me .obertk-info {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between; }
+        body .section-2 .container .about-me .obertk-info .info-left {
+          width: 50%;
+          margin: 1% 3% 2.6% 1%; }
+          body .section-2 .container .about-me .obertk-info .info-left > img {
+            width: 100%; }
+        body .section-2 .container .about-me .obertk-info .info-right {
+          width: 50%;
+          margin: 0 1% 3% 3%;
+          position: relative; }
+          body .section-2 .container .about-me .obertk-info .info-right .zagolov {
+            line-height: 2.3rem;
+            letter-spacing: 2px; }
+            body .section-2 .container .about-me .obertk-info .info-right .zagolov > h2 {
+              margin: 0;
+              padding: 0;
+              font-family: "Open sans"; }
+          body .section-2 .container .about-me .obertk-info .info-right .content {
+            line-height: 1.5rem;
+            letter-spacing: 1px;
+            font-family: "GillSansNovaBook";
+            width: 95%;
+            margin-top: 3%; }
+          body .section-2 .container .about-me .obertk-info .info-right .butt-more {
+            font-size: 1.1rem;
+            width: 47%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            outline: 1.5px solid black;
+            text-decoration: none;
+            color: black;
+            padding: 5%;
+            font-family: "Open sans";
+            font-weight: 600;
+            -webkit-transition: 0.3s all;
+            transition: 0.3s all; }
+          body .section-2 .container .about-me .obertk-info .info-right .butt-more:hover {
+            font-size: 1.1rem;
+            width: 47%;
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            outline: 1.5px solid black;
+            text-decoration: none;
+            color: white;
+            padding: 5%;
+            font-family: "Open sans";
+            font-weight: 600;
+            background-color: #06101e; }
+      body .section-2 .container .contacts .text-contacts {
+        margin: 3% 3% 3% 0;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex; }
+        body .section-2 .container .contacts .text-contacts .more > h2 {
+          margin: 0;
+          padding: 0;
+          font-family: "CodePro";
+          font-size: 1rem; }
+      body .section-2 .container .contacts .simv {
+        color: #ff4c4c;
         font-family: "CodePro";
-        font-size: 1.2rem; }
-      header .container .container-head .left-head .text-left .fe-dev {
-        font-family: "CodeProLight";
-        color: #152d3f;
-        font-size: 1rem; }
-    header .container .container-head .right-head {
-      width: 49%; }
-      header .container .container-head .right-head .text-right {
-        text-align: center; }
-        header .container .container-head .right-head .text-right .navig .main {
-          display: -webkit-box;
-          display: -webkit-flex;
-          display: -ms-flexbox;
-          display: flex;
-          -webkit-box-pack: justify;
-          -webkit-justify-content: space-between;
-          -ms-flex-pack: justify;
-          justify-content: space-between;
-          list-style-type: none; }
-          header .container .container-head .right-head .text-right .navig .main > a {
-            text-decoration: none; }
-            header .container .container-head .right-head .text-right .navig .main > a .navig-menu {
-              font-family: "CodeProLight";
-              font-size: 1rem;
-              color: #000; }
-            header .container .container-head .right-head .text-right .navig .main > a .navig-menu:hover {
+        font-size: 1rem;
+        margin: 0 1%; }
+      body .section-2 .container .contacts .obertk-info {
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between; }
+        body .section-2 .container .contacts .obertk-info .info-left {
+          width: 50%;
+          margin: 0 3% 2.6% 1%; }
+          body .section-2 .container .contacts .obertk-info .info-left > img {
+            width: 100%; }
+        body .section-2 .container .contacts .obertk-info .form-right {
+          width: 50%;
+          margin: 0 1% 3% 2%;
+          position: relative; }
+          body .section-2 .container .contacts .obertk-info .form-right .form {
+            width: 85%; }
+            body .section-2 .container .contacts .obertk-info .form-right .form .form-1 {
+              font-family: "open sans";
+              width: 100%;
+              font-size: 1.1rem; }
+              body .section-2 .container .contacts .obertk-info .form-right .form .form-1 > p {
+                margin: 1% 0; }
+              body .section-2 .container .contacts .obertk-info .form-right .form .form-1 > textarea {
+                width: 98.5%;
+                border: 1px solid black; }
+              body .section-2 .container .contacts .obertk-info .form-right .form .form-1 > input {
+                width: 91.5%;
+                margin-bottom: 6%;
+                padding: 4%;
+                border: 1px solid black;
+                color: black; }
+              body .section-2 .container .contacts .obertk-info .form-right .form .form-1 > button {
+                width: 85%;
+                padding: 5%;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                background-color: #FFF;
+                border: 1px solid black;
+                outline: none;
+                font-weight: 600;
+                -webkit-transition: 0.3s all;
+                transition: 0.3s all; }
+              body .section-2 .container .contacts .obertk-info .form-right .form .form-1 > button:hover {
+                width: 85%;
+                padding: 5%;
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                background-color: #06101e;
+                border: 1px solid black;
+                outline: none;
+                color: white;
+                font-weight: 600; }
+              body .section-2 .container .contacts .obertk-info .form-right .form .form-1 .fio:hover {
+                color: black; }
+    body .section-2 .up {
+      position: absolute;
+      z-index: 5;
+      bottom: 2%;
+      left: 1%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      background-color: rgba(220, 215, 215, 0.52);
+      width: 40px;
+      height: 40px;
+      text-decoration: none;
+      text-align: center;
+      -webkit-align-self: center;
+      -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center; }
+      body .section-2 .up > a {
+        color: black;
+        display: block;
+        font-size: 1.7rem; }
+    body .section-2 .up:hover {
+      -webkit-transition: 0.3s all;
+      transition: 0.3s all;
+      position: absolute;
+      z-index: 5;
+      bottom: 2%;
+      left: 1%;
+      -webkit-border-radius: 50%;
+      border-radius: 50%;
+      background-color: black;
+      width: 40px;
+      height: 40px;
+      text-decoration: none;
+      text-align: center;
+      -webkit-align-self: center;
+      -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center; }
+      body .section-2 .up:hover > a {
+        color: #ff4c4c;
+        display: block;
+        font-size: 1.7rem;
+        -webkit-transition: 0.3s all;
+        transition: 0.3s all; }
+  body footer {
+    max-width: 1280px;
+    background-color: #fafafa;
+    margin: 0 auto; }
+    body footer .container-foot {
+      text-align: center;
+      font-family: "GillSansNovaBook";
+      max-width: 1180px;
+      padding: 1.5% 1.5% 0 1.5%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      margin: 2%  auto; }
+      body footer .container-foot .left-foot {
+        width: 49%;
+        padding: 0 1.5%; }
+        body footer .container-foot .left-foot .text-left {
+          margin-top: 5%;
+          text-align: left; }
+          body footer .container-foot .left-foot .text-left .simv {
+            color: #ff4c4c;
+            font-family: "CodePro";
+            font-size: 1.1rem; }
+          body footer .container-foot .left-foot .text-left .fio {
+            font-family: "CodePro";
+            font-size: 1.1rem; }
+          body footer .container-foot .left-foot .text-left .fe-dev {
+            font-family: "CodeProLight";
+            color: #152d3f;
+            font-size: 1rem; }
+      body footer .container-foot .right-foot {
+        width: 49%; }
+        body footer .container-foot .right-foot .text-right {
+          font-size: 0.9rem; }
+          body footer .container-foot .right-foot .text-right .html5 {
+            font-size: 0.8rem;
+            margin-bottom: 0.5%; }
+          body footer .container-foot .right-foot .text-right .p-number {
+            margin-bottom: 0.5%; }
+          body footer .container-foot .right-foot .text-right .mail {
+            margin-bottom: 1%; }
+            body footer .container-foot .right-foot .text-right .mail > a {
+              text-decoration: none;
+              color: black;
+              -webkit-transition: 0.3s all;
+              transition: 0.3s all; }
+            body footer .container-foot .right-foot .text-right .mail > a:hover {
+              color: #ff4c4c; }
+          body footer .container-foot .right-foot .text-right .soc-icon {
+            font-size: 1rem;
+            text-align: center; }
+            body footer .container-foot .right-foot .text-right .soc-icon > a {
+              color: black;
+              text-decoration: none;
+              margin-left: 2%; }
+            body footer .container-foot .right-foot .text-right .soc-icon > a:hover {
               color: #ff4c4c;
               -webkit-transition: 0.3s all;
               transition: 0.3s all; }
-
-header .container-head-2 {
-  background: url(../img/photo.png);
-  background-position: +100% 17%;
-  background-size: cover;
-  background-repeat: no-repeat; }
-  header .container-head-2 .main-content {
-    padding: 7% 0 7% 0;
-    width: 50%;
-    margin: 0 auto; }
-    header .container-head-2 .main-content .zakaz {
-      margin: 5% auto;
-      -webkit-align-content: center;
-      -ms-flex-line-pack: center;
-      align-content: center; }
-      header .container-head-2 .main-content .zakaz .zakaz1 {
-        width: 90%;
-        margin: 0 auto;
-        color: white;
-        font-size: 2.5rem; }
-    header .container-head-2 .main-content .but-zakaz {
-      margin: 0 auto;
-      width: 27%;
-      padding: 1.5%;
-      background-color: #FFF;
-      text-align: center;
-      font-size: 1.2rem; }
-      header .container-head-2 .main-content .but-zakaz > a {
-        margin: 0 auto;
-        width: 100%;
-        padding: 5%;
-        border: 0;
-        font-family: "GillSansNovaBook";
-        -webkit-transition: 0.3s all;
-        transition: 0.3s all;
-        text-decoration: none;
-        color: black; }
-      header .container-head-2 .main-content .but-zakaz > a:hover {
-        color: #ff4c4c; }
-
-.section-1 .container {
-  max-width: 1280px;
-  margin: 0 auto; }
-  .section-1 .container .portf {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 3% 3% 3% 0; }
-    .section-1 .container .portf .more > h2 {
-      margin: 0;
-      padding: 0;
-      font-family: "CodePro";
-      font-size: 1rem; }
-    .section-1 .container .portf .simv {
-      color: #ff4c4c;
-      font-family: "CodePro";
-      font-size: 1rem;
-      margin: 0 1%; }
-  .section-1 .container .tabs {
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    margin: 3% 0 3% 0;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between; }
-    .section-1 .container .tabs .obertk {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      width: 15%;
-      cursor: pointer; }
-      .section-1 .container .tabs .obertk .more-2 > p {
-        margin: 0;
-        padding: 0;
-        font-family: "GillSansNovaBook";
-        font-size: 1rem; }
-      .section-1 .container .tabs .obertk .simv-2 {
-        color: #ff4c4c;
-        font-family: "CodePro";
-        font-size: 1.2rem;
-        margin: 0 1%; }
-    .section-1 .container .tabs .active {
-      color: red; }
-
-.section-1 .tab_content .tab_item .soderj {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  margin-bottom: 3%; }
-  .section-1 .tab_content .tab_item .soderj .hvr {
-    text-decoration: none;
-    width: 25%; }
-  .section-1 .tab_content .tab_item .soderj .obertka-soderj .soderj-vnutr {
-    width: 100%;
-    height: 250px;
-    background: url("../img/1.png");
-    background-size: cover;
-    position: relative;
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    -webkit-transition: 0.3s all;
-    transition: 0.3s all; }
-    .section-1 .tab_content .tab_item .soderj .obertka-soderj .soderj-vnutr .text {
-      display: block; }
-  .section-1 .tab_content .tab_item .soderj .obertka-soderj .soderj-vnutr:hover {
-    -webkit-filter: none;
-    filter: none; }
-  .section-1 .tab_content .tab_item .soderj .obertka-soderj .text {
-    margin: 0 2%; }
-    .section-1 .tab_content .tab_item .soderj .obertka-soderj .text > h3 {
-      font-size: 0.8rem;
-      color: black;
-      font-family: "CodePro";
-      margin: 2% 0;
-      padding: 0; }
-    .section-1 .tab_content .tab_item .soderj .obertka-soderj .text > p {
-      font-size: 0.8rem;
-      color: black;
-      font-family: "GillSansNovaBook";
-      margin: 0;
-      padding: 0; }
-  .section-1 .tab_content .tab_item .soderj .obertka-soderj:hover {
-    -webkit-filter: none;
-    filter: none; }
-
-.section-2 {
-  position: relative; }
-  .section-2 .container {
-    max-width: 1280px;
-    margin: 0 auto; }
-    .section-2 .container .about-me .text-about {
-      margin: 3% 3% 3% 0;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex; }
-      .section-2 .container .about-me .text-about .more > h2 {
-        margin: 0;
-        padding: 0;
-        font-family: "CodePro";
-        font-size: 1rem; }
-    .section-2 .container .about-me .simv {
-      color: #ff4c4c;
-      font-family: "CodePro";
-      font-size: 1rem;
-      margin: 0 1%; }
-    .section-2 .container .about-me .obertk-info {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: justify;
-      -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-      justify-content: space-between; }
-      .section-2 .container .about-me .obertk-info .info-left {
-        width: 50%;
-        margin: 1% 3% 2.6% 1%; }
-        .section-2 .container .about-me .obertk-info .info-left > img {
-          width: 100%; }
-      .section-2 .container .about-me .obertk-info .info-right {
-        width: 50%;
-        margin: 0 1% 3% 3%;
-        position: relative; }
-        .section-2 .container .about-me .obertk-info .info-right .zagolov {
-          line-height: 2.3rem;
-          letter-spacing: 2px; }
-          .section-2 .container .about-me .obertk-info .info-right .zagolov > h2 {
-            margin: 0;
-            padding: 0;
-            font-family: "Open sans"; }
-        .section-2 .container .about-me .obertk-info .info-right .content {
-          line-height: 1.5rem;
-          letter-spacing: 1px;
-          font-family: "GillSansNovaBook";
-          width: 95%;
-          margin-top: 3%; }
-        .section-2 .container .about-me .obertk-info .info-right .butt-more {
-          font-size: 1.1rem;
-          width: 47%;
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          outline: 1.5px solid black;
-          text-decoration: none;
-          color: black;
-          padding: 5%;
-          font-family: "Open sans";
-          font-weight: 600;
-          -webkit-transition: 0.3s all;
-          transition: 0.3s all; }
-        .section-2 .container .about-me .obertk-info .info-right .butt-more:hover {
-          font-size: 1.1rem;
-          width: 47%;
-          position: absolute;
-          bottom: 0;
-          left: 0;
-          outline: 1.5px solid black;
-          text-decoration: none;
-          color: white;
-          padding: 5%;
-          font-family: "Open sans";
-          font-weight: 600;
-          background-color: #06101e; }
-    .section-2 .container .contacts .text-contacts {
-      margin: 3% 3% 3% 0;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex; }
-      .section-2 .container .contacts .text-contacts .more > h2 {
-        margin: 0;
-        padding: 0;
-        font-family: "CodePro";
-        font-size: 1rem; }
-    .section-2 .container .contacts .simv {
-      color: #ff4c4c;
-      font-family: "CodePro";
-      font-size: 1rem;
-      margin: 0 1%; }
-    .section-2 .container .contacts .obertk-info {
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: justify;
-      -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-      justify-content: space-between; }
-      .section-2 .container .contacts .obertk-info .info-left {
-        width: 50%;
-        margin: 0 3% 2.6% 1%; }
-        .section-2 .container .contacts .obertk-info .info-left > img {
-          width: 100%; }
-      .section-2 .container .contacts .obertk-info .form-right {
-        width: 50%;
-        margin: 0 1% 3% 2%;
-        position: relative; }
-        .section-2 .container .contacts .obertk-info .form-right .form {
-          width: 85%; }
-          .section-2 .container .contacts .obertk-info .form-right .form .form-1 {
-            font-family: "open sans";
-            width: 100%;
-            font-size: 1.1rem; }
-            .section-2 .container .contacts .obertk-info .form-right .form .form-1 > p {
-              margin: 1% 0; }
-            .section-2 .container .contacts .obertk-info .form-right .form .form-1 > textarea {
-              width: 98.5%;
-              border: 1px solid black; }
-            .section-2 .container .contacts .obertk-info .form-right .form .form-1 > input {
-              width: 91.5%;
-              margin-bottom: 6%;
-              padding: 4%;
-              border: 1px solid black;
-              color: black; }
-            .section-2 .container .contacts .obertk-info .form-right .form .form-1 > button {
-              width: 85%;
-              padding: 5%;
-              position: absolute;
-              left: 0;
-              bottom: 0;
-              background-color: #FFF;
-              border: 1px solid black;
-              outline: none;
-              font-weight: 600;
-              -webkit-transition: 0.3s all;
-              transition: 0.3s all; }
-            .section-2 .container .contacts .obertk-info .form-right .form .form-1 > button:hover {
-              width: 85%;
-              padding: 5%;
-              position: absolute;
-              left: 0;
-              bottom: 0;
-              background-color: #06101e;
-              border: 1px solid black;
-              outline: none;
-              color: white;
-              font-weight: 600; }
-            .section-2 .container .contacts .obertk-info .form-right .form .form-1 .fio:hover {
-              color: black; }
-  .section-2 .up {
-    position: absolute;
-    z-index: 5;
-    bottom: 2%;
-    left: 2%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background-color: rgba(220, 215, 215, 0.52);
-    width: 40px;
-    height: 40px;
-    text-decoration: none;
-    text-align: center;
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center; }
-    .section-2 .up > a {
-      color: black;
-      display: block;
-      font-size: 1.7rem; }
-  .section-2 .up:hover {
-    -webkit-transition: 0.3s all;
-    transition: 0.3s all;
-    position: absolute;
-    z-index: 5;
-    bottom: 2%;
-    left: 2%;
-    -webkit-border-radius: 50%;
-    border-radius: 50%;
-    background-color: black;
-    width: 40px;
-    height: 40px;
-    text-decoration: none;
-    text-align: center;
-    -webkit-align-self: center;
-    -ms-flex-item-align: center;
-    -ms-grid-row-align: center;
-    align-self: center; }
-    .section-2 .up:hover > a {
-      color: #ff4c4c;
-      display: block;
-      font-size: 1.7rem;
-      -webkit-transition: 0.3s all;
-      transition: 0.3s all; }
