@@ -1,102 +1,108 @@
 body {
-  min-width: 1280px; }
-  body > * {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box; }
-  body header > * {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box; }
-  body header .container {
-    max-width: 1280px;
-    margin: 0 auto; }
-    body header .container .container-head {
-      padding: 2% 1.5% 3.5% 1.5%;
-      display: -webkit-box;
-      display: -webkit-flex;
-      display: -ms-flexbox;
-      display: flex;
-      -webkit-box-pack: justify;
-      -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-      justify-content: space-between; }
-      body header .container .container-head .left-head {
-        width: 49%; }
-        body header .container .container-head .left-head .text-left .simv {
-          color: #ff4c4c;
-          font-family: "CodePro";
-          font-size: 1.2rem; }
-        body header .container .container-head .left-head .text-left .fio {
-          font-family: "CodePro";
-          font-size: 1.2rem; }
-        body header .container .container-head .left-head .text-left .fe-dev {
-          font-family: "CodeProLight";
-          color: #152d3f;
-          font-size: 1rem; }
-      body header .container .container-head .right-head {
-        width: 49%; }
-        body header .container .container-head .right-head .text-right {
-          text-align: center; }
-          body header .container .container-head .right-head .text-right .navig .main {
-            display: -webkit-box;
-            display: -webkit-flex;
-            display: -ms-flexbox;
-            display: flex;
-            -webkit-box-pack: justify;
-            -webkit-justify-content: space-between;
-            -ms-flex-pack: justify;
-            justify-content: space-between;
-            list-style-type: none; }
-            body header .container .container-head .right-head .text-right .navig .main > a {
-              text-decoration: none; }
-              body header .container .container-head .right-head .text-right .navig .main > a .navig-menu {
-                font-family: "CodeProLight";
-                font-size: 1rem;
-                color: #000; }
-              body header .container .container-head .right-head .text-right .navig .main > a .navig-menu:hover {
-                color: #ff4c4c;
-                -webkit-transition: 0.3s all;
-                transition: 0.3s all; }
-  body header .container-head-2 {
-    background: url(../img/photo.png);
-    background-position: +100% 17%;
-    background-size: cover;
-    background-repeat: no-repeat; }
-    body header .container-head-2 .main-content {
-      padding: 7% 0 7% 0;
-      width: 50%;
-      margin: 0 auto; }
-      body header .container-head-2 .main-content .zakaz {
-        margin: 5% auto;
-        -webkit-align-content: center;
-        -ms-flex-line-pack: center;
-        align-content: center; }
-        body header .container-head-2 .main-content .zakaz .zakaz1 {
-          width: 90%;
+  min-width: 1280px;
+  font-size: 17px; }
+  body header {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1; }
+    body header > * {
+      -webkit-box-sizing: border-box;
+      box-sizing: border-box; }
+    body header .container {
+      max-width: 1180px;
+      margin: 0 auto;
+      padding: 0 20px; }
+      body header .container .container-head {
+        padding: 2% 1.5% 3.5% 1.5%;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-pack: justify;
+        -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+        justify-content: space-between; }
+        body header .container .container-head .left-head {
+          width: 49%; }
+          body header .container .container-head .left-head .text-left .simv {
+            color: #ff4c4c;
+            font-family: "CodePro";
+            font-size: 1.2rem; }
+          body header .container .container-head .left-head .text-left .fio {
+            font-family: "CodePro";
+            font-size: 1.2rem; }
+          body header .container .container-head .left-head .text-left .fe-dev {
+            font-family: "CodeProLight";
+            color: #152d3f;
+            font-size: 1rem; }
+        body header .container .container-head .right-head {
+          width: 49%; }
+          body header .container .container-head .right-head .text-right {
+            text-align: center; }
+            body header .container .container-head .right-head .text-right .navig .main {
+              display: -webkit-box;
+              display: -webkit-flex;
+              display: -ms-flexbox;
+              display: flex;
+              -webkit-box-pack: justify;
+              -webkit-justify-content: space-between;
+              -ms-flex-pack: justify;
+              justify-content: space-between;
+              list-style-type: none; }
+              body header .container .container-head .right-head .text-right .navig .main > a {
+                text-decoration: none; }
+                body header .container .container-head .right-head .text-right .navig .main > a .navig-menu {
+                  font-family: "CodeProLight";
+                  font-size: 1rem;
+                  color: #000; }
+                body header .container .container-head .right-head .text-right .navig .main > a .navig-menu:hover {
+                  color: #ff4c4c;
+                  -webkit-transition: 0.3s all;
+                  transition: 0.3s all; }
+    body header .container-head-2 {
+      background: url(../img/photo.png);
+      background-position: +100% 17%;
+      background-size: cover;
+      background-repeat: no-repeat; }
+      body header .container-head-2 .main-content {
+        padding: 7% 0 7% 0;
+        width: 50%;
+        margin: 0 auto; }
+        body header .container-head-2 .main-content .zakaz {
+          margin: 5% auto;
+          -webkit-align-content: center;
+          -ms-flex-line-pack: center;
+          align-content: center; }
+          body header .container-head-2 .main-content .zakaz .zakaz1 {
+            width: 90%;
+            margin: 0 auto;
+            color: white;
+            font-size: 2.5rem;
+            text-align: center; }
+        body header .container-head-2 .main-content .but-zakaz {
           margin: 0 auto;
-          color: white;
-          font-size: 2.5rem; }
-      body header .container-head-2 .main-content .but-zakaz {
-        margin: 0 auto;
-        width: 27%;
-        padding: 1.5%;
-        background-color: #FFF;
-        text-align: center;
-        font-size: 1.2rem; }
-        body header .container-head-2 .main-content .but-zakaz > a {
-          margin: 0 auto;
-          width: 100%;
-          padding: 5%;
-          border: 0;
-          font-family: "GillSansNovaBook";
-          -webkit-transition: 0.3s all;
-          transition: 0.3s all;
-          text-decoration: none;
-          color: black; }
-        body header .container-head-2 .main-content .but-zakaz > a:hover {
-          color: #ff4c4c; }
+          width: 27%;
+          padding: 1.5%;
+          background-color: #FFF;
+          text-align: center;
+          font-size: 1.2rem; }
+          body header .container-head-2 .main-content .but-zakaz > a {
+            margin: 0 auto;
+            width: 100%;
+            padding: 5%;
+            border: 0;
+            font-family: "GillSansNovaBook";
+            -webkit-transition: 0.3s all;
+            transition: 0.3s all;
+            text-decoration: none;
+            color: black; }
+          body header .container-head-2 .main-content .but-zakaz > a:hover {
+            color: #ff4c4c; }
   body .section-1 .container {
-    max-width: 1280px;
-    margin: 0 auto; }
+    margin: 0 auto;
+    max-width: 1180px;
+    padding: 0 20px; }
     body .section-1 .container > * {
       -webkit-box-sizing: border-box;
       box-sizing: border-box; }
@@ -193,7 +199,8 @@ body {
   body .section-2 {
     position: relative; }
     body .section-2 .container {
-      max-width: 1280px;
+      max-width: 1180px;
+      padding: 0 20px;
       margin: 0 auto; }
       body .section-2 .container > * {
         -webkit-box-sizing: border-box;
@@ -352,7 +359,7 @@ body {
       position: absolute;
       z-index: 5;
       bottom: 2%;
-      left: 2%;
+      left: 1%;
       -webkit-border-radius: 50%;
       border-radius: 50%;
       background-color: rgba(220, 215, 215, 0.52);
@@ -392,3 +399,67 @@ body {
         font-size: 1.7rem;
         -webkit-transition: 0.3s all;
         transition: 0.3s all; }
+  body footer {
+    max-width: 1280px;
+    background-color: #fafafa;
+    margin: 0 auto; }
+    body footer .container-foot {
+      text-align: center;
+      font-family: "GillSansNovaBook";
+      max-width: 1180px;
+      padding: 1.5% 1.5% 0 1.5%;
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      margin: 2%  auto; }
+      body footer .container-foot .left-foot {
+        width: 49%;
+        padding: 0 1.5%; }
+        body footer .container-foot .left-foot .text-left {
+          margin-top: 5%;
+          text-align: left; }
+          body footer .container-foot .left-foot .text-left .simv {
+            color: #ff4c4c;
+            font-family: "CodePro";
+            font-size: 1.1rem; }
+          body footer .container-foot .left-foot .text-left .fio {
+            font-family: "CodePro";
+            font-size: 1.1rem; }
+          body footer .container-foot .left-foot .text-left .fe-dev {
+            font-family: "CodeProLight";
+            color: #152d3f;
+            font-size: 1rem; }
+      body footer .container-foot .right-foot {
+        width: 49%; }
+        body footer .container-foot .right-foot .text-right {
+          font-size: 0.9rem; }
+          body footer .container-foot .right-foot .text-right .html5 {
+            font-size: 0.8rem;
+            margin-bottom: 0.5%; }
+          body footer .container-foot .right-foot .text-right .p-number {
+            margin-bottom: 0.5%; }
+          body footer .container-foot .right-foot .text-right .mail {
+            margin-bottom: 1%; }
+            body footer .container-foot .right-foot .text-right .mail > a {
+              text-decoration: none;
+              color: black;
+              -webkit-transition: 0.3s all;
+              transition: 0.3s all; }
+            body footer .container-foot .right-foot .text-right .mail > a:hover {
+              color: #ff4c4c; }
+          body footer .container-foot .right-foot .text-right .soc-icon {
+            font-size: 1rem;
+            text-align: center; }
+            body footer .container-foot .right-foot .text-right .soc-icon > a {
+              color: black;
+              text-decoration: none;
+              margin-left: 2%; }
+            body footer .container-foot .right-foot .text-right .soc-icon > a:hover {
+              color: #ff4c4c;
+              -webkit-transition: 0.3s all;
+              transition: 0.3s all; }
